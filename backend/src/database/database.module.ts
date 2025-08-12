@@ -22,5 +22,6 @@ import * as schema from './schema';
       inject: [ConfigService],
     },
   ],
+  exports: [DATABASE_CONNECTION],
 })
 export class DatabaseModule {}
