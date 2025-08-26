@@ -20,7 +20,7 @@ import { DatabaseModule } from './database/database.module';
           emailAndPassword: {
             enabled: true,
           },
-          trustedOrigins: ['http://localhost:3001'],
+          trustedOrigins: ['http://localhost:3001', ],
         }),
       }),
       inject: [DATABASE_CONNECTION],
